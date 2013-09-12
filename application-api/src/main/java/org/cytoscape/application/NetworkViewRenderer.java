@@ -5,6 +5,7 @@ import org.cytoscape.view.model.CyNetworkViewFactory;
 import org.cytoscape.view.presentation.RenderingEngineFactory;
 
 public interface NetworkViewRenderer {
+	
 	static final String DEFAULT_CONTEXT = "";
 	static final String BIRDS_EYE_CONTEXT = "birdsEye";
 	static final String VISUAL_STYLE_PREVIEW_CONTEXT = "visualStylePreview";
@@ -13,4 +14,10 @@ public interface NetworkViewRenderer {
 	CyNetworkViewFactory getNetworkViewFactory();
 	
 	String getId();
+// TODO	
+//	/**
+//	 * Name of this renderer.
+//	 * @return human readable name of this renderer.
+//	 */
+//	String getDisplayName();
 }
